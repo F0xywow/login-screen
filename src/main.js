@@ -23,15 +23,11 @@ function LoginScreen() {
         <h1>Logowanie</h1>
          <form className='login-form' onSubmit={handleSubmit}>
             <label>
-              Username:
-              <input className='login' type="text" value={username} onChange={handleUsernameChange} />
+              <input className='login' type="text" placeholder='Login' value={username} onChange={handleUsernameChange} />
             </label>
-            <br />
             <label>
-              Password:
-              <input className='password' type="password" value={password} onChange={handlePasswordChange} />
+              <input className='password' type="password" placeholder='Password' value={password} onChange={handlePasswordChange} />
             </label>
-              <br />
            <button type="submit">Zaloguj</button>
            <label>
             Nie masz konta?
