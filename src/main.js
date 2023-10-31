@@ -28,7 +28,7 @@ function LoginScreen() {
             <label>
               <input className='password' type="password" placeholder='Password' value={password} onChange={handlePasswordChange} />
             </label>
-           <button type="submit">Zaloguj</button>
+           <button className='button-login' type="submit">Zaloguj</button>
            <label>
             Nie masz konta?
            </label>
